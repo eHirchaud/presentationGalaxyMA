@@ -3,13 +3,12 @@
 % 25 Septembre, 2014
 
 
-https://github.com/eHirchaud/presentationGalaxyMA
-
+[https://github.com/eHirchaud/presentationGalaxyMA](https://github.com/eHirchaud/presentationGalaxyMA)
 
 Créer un compte galaxy
 ======================
 
-Aller sur **http://cardioserve.nantes.inserm.fr/galaxy**
+Aller sur [http://cardioserve.nantes.inserm.fr/galaxy](http://cardioserve.nantes.inserm.fr/galaxy)
 
 Dans la barre de navigation aller sur **User** puis **Register**
 
@@ -87,14 +86,20 @@ Glossaire /jargon
 * Library : Ensemble de dataSet (spécifique à une instance)
 
 
+
+
+Liens 
+============
+
+* [http://www.pf-bird.univ-nantes.fr/](http://www.pf-bird.univ-nantes.fr/) BiRD (Nantes)
+
+* [http://abims.sb-roscoff.fr/](http://abims.sb-roscoff.fr/) ABiMS (Roscoff)
+
+* [http://www.genouest.org/](http://www.genouest.org/) GenOuest (Rennes)
+
+* [http://www.biogenouest.org/](http://www.biogenouest.org/) BioGenOuest (Grand Ouest)
+
+
 ![Figure 1-1. Fenetre principale de galaxy.](images/screenGalaxy.png)
 
-
-Workflow d'analyse
-==================
-
-
 ![Workflow](images/gen_image2.png)
-
-
-
