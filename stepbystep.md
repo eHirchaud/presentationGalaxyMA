@@ -2,6 +2,10 @@
 % Edouard Hirchaud, Audrey Bihouée, Raluca Teusan
 % 25 Septembre, 2014
 
+
+https://github.com/eHirchaud/presentationGalaxyMA
+
+
 Créer un compte galaxy
 ======================
 
