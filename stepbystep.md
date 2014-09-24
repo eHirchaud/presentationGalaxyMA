@@ -20,40 +20,46 @@ Attention au public name Galaxy n'accepte que les minuscules et le symbole  _
 Description de l'interface
 =========================
 
-Panneau à droite : Les outils
+Panneau à gauche : Les outils
 -----------------
 
 Comporte tous les outils (tools) classés par catégorie.
 
-Les outils disponible dépendande de l'instance de Galaxy.
+Les outils disponibles dépendent de l'instance de Galaxy.
 
 On trouve un mini moteur de recherche en haut de ce panneau.
 
-Panneau à gauche : Historique
+Panneau à droite : Historique
 -----------------------------
 
-Contient tous les dataset , les input les outputs.
+Contient tous les datasets, les input et les outputs.
 
-Couleurs des dataset.
+Couleurs des dataset :
 
 * Vert : Ok tout va bien
-* Jaune : Patiance ça tourne
+* Jaune : Patience ça tourne
 * Gris : En attente, dépend d'un autre **job** (généralement pas long)
 * Bleu : En upload
 * Rouge : Probléme probablement un mauvais fichier d'entrée ou un bug dans l'outil
 
-Il est possible de renomer son historique en cliquant sur Unnamed history.
-On peut également créer un nouvel historique
+Il est conseillé de renommer son historique en cliquant sur Unnamed history.
+On peut également créer un nouvel historique.
+
+Panneau central : Paramétrage et lancement des outils
+-----------------------------
+Une fois un outil sélectionné, les paramètres s'affichent dans un formulaire dans le panneau central.
+C'est de là que sont exécutés les outils.
+
 
 Barre de navigation
 -------------------
 
 * Analyze Data : pour revenir à la page principale (Analyse)
-* Worklow : créer modifier des workflows.
+* Workflow : créer et modifier des workflows.
 * Shared Data : 
 
-1. Données partagées, 
-2. Publication d'historique,workflows, Pages, visualisations
+  1. Données partagées
+  2. Publication d'historique,workflows, Pages, visualisations
 
 * Visualisation : créer des visualisations
 * Aide
@@ -62,29 +68,28 @@ Barre de navigation
 Importation des data
 ====================
 
-* Via l'outil d'upload de galaxy
-* Via les library
+* Via l'outil d'upload de galaxy : choisir les fichiers se trouvant en local
+* Via les library : importer des données déjà sur le serveur
 
-1. Shared Data -
-2. Data Libraries 
-3. formation_agilent_files
-4. Cliquer sur la boite à coté de Name
-5. puis en bas For selected datasets : import to current history cliquer sur Go
+    1. Shared Data -
+    2. Data Libraries 
+    3. formation_agilent_files
+    4. Sélectionner tous les fichiers (Cocher la boite à coté de Name)
+    5. puis en bas For selected datasets : import to current history. Cliquer sur Go
 
 
 Glossaire /jargon
 =================
 
 
-* Instance de Galaxy : Application web propre à un labo, Chaque instance est personalisé, dans le choix des outils, les quotas de stockages ect.. Il n'y a pas d'interpolarité entre les instances.
-* Tool : Un formulaire permetant de rentrer les paramétres pour un script et qui décrit la façon de l'exécuter. Cela est opaque pour l'utilisateur standart. 
+* Instance de Galaxy : Application web propre à un labo. Chaque instance est personalisée, dans le choix des outils, les quotas de stockages etc.. Il n'y a pas d'interpolarité entre les instances.
+* Tool : Un formulaire permettant de rentrer les paramétres pour un script et qui décrit la façon de l'exécuter.
 * Job : Lorsque l'on execute un outil la machine va lancé un job
-* Dataset : C'est la donnée d'entré ou de sortie, Il ne s'agit pas seulement d'un fichier car elle contiend des métadonnées (type de données, base de données liée, comment elle à été généré ect...)
-* Script : Le programme en question décrit par un outil.
-* Workflow : Enchainement d'outils dont les inputs (entrées) d'outils sont les output (sorti) d'autres
-* Toolshed : Application web différente de Galaxy qui contiend des outils rangé en catégorie. (Une sorte d'AppStore)
-* Library : Ensemble de dataSet (spécifique à une instance)
-
+* Dataset : C'est la donnée d'entré ou de sortie. Il ne s'agit pas seulement d'un fichier car elle contient des métadonnées (type de données, base de données liée, comment elle à été générée etc...)
+* Script : Le programme en question décrit par un outil et exécuté en arrière-plan.
+* Workflow : Enchainement d'outils dont les inputs (entrées) d'outils sont les outputs (sortie) d'autres
+* Toolshed : Application web différente de Galaxy qui contient des outils rangés en catégories. (Une sorte d'AppStore)
+* Library : Ensemble de datasets (spécifique à une instance)
 
 
 
